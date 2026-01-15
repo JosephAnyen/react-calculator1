@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #00aaff, #00ff6c);
+  background: linear-gradient(to right, #586f7f, #a7cdb7);
 }
 
 .calculator-Grid {
@@ -17,19 +17,22 @@ body {
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
 .calculator-Grid > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid white;
+  border: 1px solid rgb(15, 14, 14);
   outline: none;
   background-color: rgba(255, 255, 255, 0.1);
   color: black;
+  border-radius: 25px;
+  width: 90px;
+  height: 80px;
 }
 .calculator-Grid > button:hover,
 .calculator-Grid > button:focus {
   background-color: rgba(255, 255, 255, 0.3);
-}
-.span-Two {
-  grid-column: span 2;
 }
 
 .output {

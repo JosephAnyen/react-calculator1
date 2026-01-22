@@ -54,7 +54,7 @@ It supports basic arithmetic operations, trigonometric functions, logarithms, an
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/calculator-app.git
+git clone https://github.com/josephanyen/calculator-app.git
 cd calculator-app
 ```
 
